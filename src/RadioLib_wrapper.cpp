@@ -1,5 +1,3 @@
-#ifdef RADIOLIB_WRAPPER_ENABLE
-
 #include "RadioLib_wrapper.h"
 
 // Flags for radio interrupt functions
@@ -518,5 +516,3 @@ bool RadioLib_Wrapper<T>::test_transmit()
     }
     return true;
 }
-
-#endif // RADIOLIB_WRAPPER_ENABLE

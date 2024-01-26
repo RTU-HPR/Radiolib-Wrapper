@@ -1,5 +1,4 @@
 #pragma once
-#ifdef RADIOLIB_WRAPPER_ENABLE
 #include <RadioLib.h>
 #include <Arduino.h>
 #include <SPI.h>
@@ -209,5 +208,3 @@ template class RadioLib_Wrapper<SX1282>;
 // Selected RFM9x LoRa types
 // template class RadioLib_Wrapper<RFM95>;
 // template class RadioLib_Wrapper<RFM96>;
-
-#endif // RADIOLIB_WRAPPER_ENABLE
